@@ -73,8 +73,8 @@ app.get('/', function (req, res) {
     });
   } else {
     // uncomment below
-    //res.render('index.html', { pageCountMessage : null});
-    res.render('index.htm', { pageCountMessage : null});
+    res.render('index.html', { pageCountMessage : null});
+    //res.render('index.htm', { pageCountMessage : null});
   }
 });
 
